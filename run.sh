@@ -149,7 +149,7 @@ function startReplication() {
   COUNT=0
 
   # Checking if mongo is up
-  while ! mongo --port 27023 --eval "var rs_cluster=$(cat ${scriptPath}/replication-cluster.json);" $scriptPath/start-replication.js; do 
+  while ! mongo --port 27026 --eval "var rs_cluster=$(cat ${scriptPath}/replication-cluster.json);" $scriptPath/start-replication.js; do 
     ((COUNT++));
     sleep 1; 
     echo " ";
