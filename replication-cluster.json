@@ -3,12 +3,12 @@
    members: [
       {
          _id: 0,
-         host: "localhost:27026",
+         host: "0.0.0.0:27026",
          priority: 2
       },
       {
          _id: 1,
-         host: "localhost:27027",
+         host: "0.0.0.0:27027",
          priority: 1
       }
    ]
